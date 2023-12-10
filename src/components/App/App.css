@@ -1,0 +1,56 @@
+body,
+html,
+#root {
+  height: 100%;
+  background-color: #000;
+}
+
+html {
+  font-size: 1.1rem;
+}
+
+h1 {
+  padding: 0.5rem 0;
+  background-color: #000;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.88rem;
+  color: #fff;
+  margin:0;
+}
+
+h1 .highlight {
+  color: orange;
+}
+
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.55rem;
+}
+
+.App {
+  height: 100%;
+  padding: 0 15% 30px 15%;
+  margin:0;
+  background-image: url('./fate_zero.jpg');
+  /* background-attachment: fixed; */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 500;
+  color: #000;
+}
+
+.App-playlist {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+@media only screen and (max-width: 1020px) {
+  .App-playlist {
+    align-items: center;
+    flex-direction: column;
+  }
+}

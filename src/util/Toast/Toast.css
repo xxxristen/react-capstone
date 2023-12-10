@@ -1,0 +1,10 @@
+.Toastify__toast-container {
+    width: 40%;
+    padding: 10px 5px;
+}
+.Toastify__toast-body {
+    font-size: 1rem;
+}
+.Toastify__toast-icon {
+    padding-right: 0.4rem;
+}
