@@ -37,13 +37,22 @@
     /* overflow: hidden;
     text-overflow: ellipsis; */
 }
+
 .Track-information span {
     font-weight: 500;
 }
+
 .Track-information a {
-    color:#253DA1;
+    color: #253DA1;
     text-decoration: none;
 }
+
 .Track-information a:hover {
-    color:#e95d00;
+    color: #e95d00;
+}
+
+@media only screen and (max-width: 576px) {
+    .Track-action:hover {
+        color: #000;
+    }
 }

@@ -2,7 +2,7 @@ import React from "react";
 import "./Track.css";
 
 function Track(props) {
-  
+
   function renderAction() {
     // If toRemove is true, displays "-" button
     if (props.toRemove) {

@@ -7,7 +7,7 @@
     height: 550px;
     padding: 1rem 1.16rem;
     background-color: rgba(251, 192, 147, 0.9);
-    border-radius:5px;
+    border-radius: 5px;
     box-shadow: 0 4px 2px 2px #000000;
 }
 
@@ -39,7 +39,7 @@
 }
 
 .Playlist-save:hover {
-    background-color:orange;
+    background-color: orange;
     color: #000;
 }
 
@@ -51,5 +51,12 @@
 @media only screen and (max-width: 1020px) {
     .Playlist {
         width: 90%;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .Playlist {
+        height: 380px;
+        width: 100%;
     }
 }

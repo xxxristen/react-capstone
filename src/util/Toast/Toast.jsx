@@ -4,7 +4,7 @@ import './Toast.css'
 
 // Configure toast's properties
 const options = {
-    position: 'top-center',
+    position: "top-center",
     autoClose: 3000,
     hideProgressBar: false,
     closeOnClick: true,
