@@ -1,6 +1,6 @@
 let accessToken;
 const clientID = "017a521c06c84f35b385367f0cce7287";
-const redirectUrl = "http://localhost:3000";
+const redirectUrl = "https://xxxristen-react.vercel.app";
 
 const Spotify = {
 
