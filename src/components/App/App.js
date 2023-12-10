@@ -12,6 +12,11 @@ function App() {
   const [playlistName, setPlaylistName] = React.useState(`✎ New playlist`);
   const [playlistTracks, setPlaylistTracks] = React.useState([]);
 
+  // getAccessToken once the component is loaded
+  React.useEffect(() => {
+    Spotify.getAccessToken();
+  }, [])
+
   function search(term) {
     // Handle empty search
     if (!term) {
@@ -60,7 +65,7 @@ function App() {
   return (
     <div>
       <h1>
-        Ja<span className="highlight">mmm</span>ing 
+        Ja<span className="highlight">mmm</span>ing
       </h1>
       <div className="App">
         <SearchBar onSearch={search} />
